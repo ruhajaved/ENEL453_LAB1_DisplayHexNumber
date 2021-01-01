@@ -10,7 +10,7 @@ Insert a multiplexer into the reference project to allow the HEX outputs to disp
 
 The project objectives included:
 
-1.	To give the team an opportunity to become familiar with the technologies used
+1.	To give the team an opportunity to become familiar with the technologies used.
 
 ## Technologies
 
@@ -22,4 +22,16 @@ The technologies used include:
 4. DE10-Lite FPGA board from Terasic
 
 ## Launch
+
+To launch, you will first have to create a project in Quartus. To do so follow these steps:
+
+1. Select "New Project Wizard".
+2. Click "Next" on the intro page.
+3. Choose a directory for the project, as well as a name for the project. Set the top level name to "top_level.vhd" and click "Next".
+4. Select "Empty Project" and click "Next".
+5. Add all the project files (everything with extensions vhd., qsf., and .sdc). Click "Next".
+6. Go into the "Board" tab and select "MAX 10 DE10-Lite". Also, make sure to unselect "Create top-level design file" that is located near the bottom of the window. Click "Next".
+7. Include no EDA tools. Click "Next".
+8. Click "Finish".
+
 
